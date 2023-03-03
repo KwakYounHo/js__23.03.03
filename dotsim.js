@@ -19,3 +19,5 @@ function getRandomInt(min, max) {
 }
 
 console.log(lunch[getRandomInt(0, lunch.length)]);
+
+// 터미널 -> 해당 경로에서 node filename.js
