@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+
+    document.createElement
+
+    const dinner = [
+      '치킨',
+      '피자',
+      '돈까스',
+      '파스타',
+      '리조또',
+      '필라프',
+      '초밥',
+      '우동',
+      '라면',
+      '굶기',
+      '공기',
+      '산소',
+      '햄버거',
+      '보쌈',
+      '부대찌개',
+      '감자탕',
+      '삼겹살',
+    ]
+
+    const rameon = [
+      'samyang',
+      'sin',
+      'nuguri',
+      'jajang',
+      'djwlfjq',
+    ]
+    const makeP = document.createElement('p');
+    makeP.innerText = dinner[Math.floor(Math.random() * (dinner.length - 0)) + 0];
+    // console.log(Math.floor(Math.random() * (dinner.length - 0)) + 0)
+    document.body.appendChild(makeP);
+    
+    const numberRandom = [
+      '첫 번째',
+      '마지막',
+    ]
+
+
+    console.log(numberRandom[Math.floor(Math.random() * (numberRandom.length))])
+  </script>
+</body>
+</html>
